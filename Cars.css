@@ -1,0 +1,53 @@
+/* Sedan page style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.description {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.description h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.description p {
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.car-image {
+    text-align: center;
+    padding: 20px;
+}
+
+.car-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

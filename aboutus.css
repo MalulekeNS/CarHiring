@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 3px solid #eaf1f1;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #edf3f2; /* Blue accent */
+}
+
+.header-content p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ccc; /* Light grey text */
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 20px;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    border-bottom: 2px solid #121313;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.about-section h3 {
+    font-size: 22px;
+    color: #101111;
+}
+
+.about-section p, .about-section ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+ul li::before {
+    content: "*";
+    color: #f6fcfb;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    display: none;
+}
+
+.back-to-top:hover {
+    background-color: #111111;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+
+    .about-section {
+        padding: 40px 15px;
+    }
+}
+
+
